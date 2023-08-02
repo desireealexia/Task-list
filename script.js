@@ -20,7 +20,7 @@ taskSection.innerHTML +=
 <p>${document.querySelector('#newtask input').value}</p>
 </label>
 <div class="delete">
-<i class="uil uil-trash"></i></div></div>`;
+<i class="fa-solid fa-trash-can fa-2xs" style="color: #000000;"></i></div></div>`;
 var current_tasks = document.querySelectorAll(".delete");
 for (var i = 0; i < current_tasks.length; i++){
 current_tasks[i].onclick = function () {
